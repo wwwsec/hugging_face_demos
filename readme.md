@@ -4,7 +4,8 @@
 ```
 conda create -n hf-gpu-env python=3.10
 conda activate hf-gpu-env
-pip install -r requrement.txt --extra-index-url https://download.pytorch.org/whl/cu118
+#pip install -r requrement.txt --extra-index-url https://download.pytorch.org/whl/cu118
+pip install -r requrement.txt --extra-index-url https://download.pytorch.org/whl/nightly/cu121
 ```
 
 ## 模型下载
